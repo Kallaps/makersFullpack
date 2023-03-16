@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container:first-child {
+  text-align: center;
+}
+.auth-form {
+  display: inline-block;
+  margin: auto;
+  padding: 2rem;
+  background-color: darkgray;
+  border-radius: 10px;
+  text-align: right;
+}
+.field input {
+  border: 0;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btn {
+  padding: 10px;
+  margin-top: 10px;
+  color: darkgray;
+  background-color: gainsboro;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(146, 106, 199);
+  transition: 0.3s;
+  color: white;
+}
+.field:last-child {
+  text-align: center;
+}
+
+/* modal */
+
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: darkgray;
+  display: none;
+}
+.btn-save {
+  padding: 10px;
+  margin-top: 10px;
+  color: darkgray;
+  background-color: gainsboro;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-save:hover {
+  background-color: #926ac7;
+  transition: 0.3s;
+  color: white;
+}
+
+.inp-edit {
+  padding: 9px;
+  margin-top: 10px;
+  color: black;
+  border: 1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.inner-modal {
+  margin-top: 20px;
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+  padding: 6px;
+}
+.close {
+  text-align: end;
+}

@@ -1,0 +1,29 @@
+#korzina {
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(184, 183, 197);
+  border: none;
+}
+
+button {
+  margin-left: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #6470ac;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

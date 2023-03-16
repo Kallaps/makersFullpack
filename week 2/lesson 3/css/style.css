@@ -1,0 +1,87 @@
+/*  em - относительная еденица измерения , которая высчитывается относительно размера шрифта родителя */
+.parent {
+  font-size: 15px;
+}
+.child {
+  font-size: 1.5em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  padding: 20px;
+  border: 3px dotted black;
+  margin: 15px 20px;
+}
+/* резиновая верстка */
+.container {
+  width: 100px;
+  border: 2px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.block1 {
+  width: 10%;
+  background-color: aqua;
+  height: 65vmax;
+}
+.block2 {
+  width: 50vmin;
+  background-color: chartreuse;
+  height: 100%;
+}
+.block3 {
+  width: 30%;
+  height: 30%;
+  background-color: gold;
+}
+
+/* =---w--=-=- */
+html {
+  font-size: 30px;
+}
+
+.container2 {
+  max-width: 1000px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  min-width: 200px;
+  height: 200px;
+  font-size: 2rem;
+  text-align: center;
+}
+.block:nth-child(even) {
+  background-color: yellowgreen;
+}
+.block:nth-child(odd) {
+  background-color: fuchsia;
+}
+
+@media all and (max-width: 601px) {
+  .block {
+    font-size: 3.2rem;
+    color: beige;
+    width: 50%;
+  }
+}
+.container2 {
+  justify-content: space-between;
+}
+@media all and (max-width: 401px) {
+  .block {
+    width: 100%;
+  }
+  .block:nth-child(even) {
+    background-color: red;
+  }
+}

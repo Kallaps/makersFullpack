@@ -1,0 +1,56 @@
+/* универсальный селектор */
+
+* {
+  font-family: sans-serif;
+}
+
+/* селектор по тегу */
+h1 {
+  color: black;
+  /* margin: 30px 20px 10px; */
+  font-size: 80;
+  margin-top: 30px 20px 10px;
+  padding: 20px 20 px;
+  border: 2px solid grey;
+  font-family: sans-serif;
+}
+
+/* селектор по атрибуту */
+[name] {
+  color: black;
+  width: 100px;
+  height: 50px;
+  background-color: grey;
+  font-size: 15px;
+}
+
+/* селектор по классу */
+.classSpan {
+  background-color: gray;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+  margin-top: 30px;
+}
+
+/* селектор по id */
+#block1 {
+  width: 100px;
+  height: 60px;
+  background-color: black;
+  color: aliceblue;
+  margin-left: 50px;
+}
+
+#span {
+  background-color: gray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
